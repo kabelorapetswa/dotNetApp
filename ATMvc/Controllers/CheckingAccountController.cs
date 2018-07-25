@@ -36,6 +36,8 @@ namespace ATMvc.Controllers
         public ActionResult List() {
             return View(db.CheckingAccounts.ToList());
         }
+        
+        
 
         // GET: CheckingAccount/Create
         //
