@@ -38,6 +38,7 @@ namespace ATMvc.Controllers
         }
 
         // GET: CheckingAccount/Create
+        //
         public ActionResult Create()
         {
             return View();
